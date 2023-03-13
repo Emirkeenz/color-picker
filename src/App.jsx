@@ -11,8 +11,6 @@ export default function App() {
     setBackground(color)
   }
 
-
-
   return (
     <Wrapper color={background}>
       {[1, 2, 3, 4, 5].map(num => {
@@ -24,4 +22,3 @@ export default function App() {
   )
 }
 
-// const x = 10
